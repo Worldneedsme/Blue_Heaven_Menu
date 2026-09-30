@@ -1,8 +1,18 @@
-import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { NextResponse } from "next/server";
+import type { NextRequest } from "next/server";
 
-export default createMiddleware(routing);
+export function middleware(request: NextRequest) {
+  const { pathname } = request.nextUrl;
+  if (pathname === "/bar" || pathname.startsWith("/bar/")) {
+    return NextResponse.next();
+  }
+
+  const url = request.nextUrl.clone();
+  url.pathname = "/bar";
+  url.search = "";
+  return NextResponse.redirect(url);
+}
 
 export const config = {
-  matcher: ["/", "/(en|fi|tr)/:path*", "/((?!api|_next|_vercel|bar|.*\\..*).*)"],
+  matcher: ["/((?!api|_next|_vercel|.*\\..*).*)"],
 };
