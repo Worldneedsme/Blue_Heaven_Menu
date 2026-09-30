@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Blue Heaven Apart Hotel Website
 
-## Getting Started
+Informative website for **Blue Heaven Apart Hotel** in Alanya, Antalya, Türkiye.
 
-First, run the development server:
+- No online booking / payments / guest login
+- Content is edited in Cursor via TypeScript data files
+- Languages: **English (default)**, **Finnish**, **Turkish**
+
+## Quick start
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) — you will be redirected to `/en`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## How to update content (no CMS)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit files under `src/data/`, save, then push to deploy (e.g. Vercel). Live site updates in about 1–3 minutes after deploy.
 
-## Learn More
+| What to change | File |
+|----------------|------|
+| Phone, email, address, maps, social | [`src/data/hotel.ts`](src/data/hotel.ts) |
+| Homepage “Why Blue Heaven” cards | [`src/data/features.ts`](src/data/features.ts) |
+| Rooms | [`src/data/rooms.ts`](src/data/rooms.ts) |
+| Restaurant menu & prices | [`src/data/menu.ts`](src/data/menu.ts) |
+| Massage treatments | [`src/data/massage.ts`](src/data/massage.ts) |
+| Gallery images list | [`src/data/gallery.ts`](src/data/gallery.ts) |
+| Location / attractions | [`src/data/location.ts`](src/data/location.ts) |
+| Restaurant page copy | [`src/data/restaurant.ts`](src/data/restaurant.ts) |
+| Extra guest services | [`src/data/services.ts`](src/data/services.ts) |
+| Guest reviews | [`src/data/reviews.ts`](src/data/reviews.ts) |
+| UI translations (nav, buttons) | [`src/messages/en.json`](src/messages/en.json), [`fi.json`](src/messages/fi.json), [`tr.json`](src/messages/tr.json) |
 
-To learn more about Next.js, take a look at the following resources:
+### Images
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Drop files into `public/images/...`
+2. Make sure the path in the matching data file points to that file
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Logo: [`public/images/brand/logo.png`](public/images/brand/logo.png)
 
-## Deploy on Vercel
+## Deploy (Vercel)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Push this repo to GitHub
+2. Import the project in [Vercel](https://vercel.com)
+3. Deploy — Root Directory can stay the repo root
+4. Every future `git push` redeploys automatically
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Stack
+
+- Next.js (App Router) + TypeScript
+- Tailwind CSS
+- next-intl (EN / FI / TR)

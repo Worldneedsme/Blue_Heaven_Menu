@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Home",
+    "rooms": "Rooms",
+    "restaurant": "Restaurant",
+    "menu": "Menu",
+    "massage": "Massage",
+    "gallery": "Gallery",
+    "location": "Location",
+    "alanya": "Alanya",
+    "contact": "Contact",
+    "contactUs": "Contact Us",
+    "explore": "Explore",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "cta": {
+    "contactUs": "Contact Us",
+    "callUs": "Call Us",
+    "askAvailability": "Ask About Availability",
+    "viewDetails": "View Details",
+    "exploreRoom": "Explore Room",
+    "viewMenu": "View Menu",
+    "viewGallery": "View Gallery",
+    "exploreRooms": "Explore Our Rooms",
+    "exploreBlueHeaven": "Explore Blue Heaven",
+    "discoverAlanya": "Discover Alanya",
+    "exploreAlanya": "Explore Alanya",
+    "discoverMassage": "Discover Massage",
+    "getInTouch": "Get in Touch",
+    "getDirections": "Get Directions",
+    "reserveMassage": "Contact the Front Desk",
+    "bookMassage": "Contact the Front Desk",
+    "sendMessage": "Send Message",
+    "emailUs": "Email Us"
+  },
+  "home": {
+    "metaTitle": "Blue Heaven Apart Hotel Alanya | Hotel Rooms in Alanya",
+    "metaDescription": "Blue Heaven Apart Hotel in Alanya, Antalya — comfortable hotel rooms, restaurant and massage. A family-run Mediterranean stay."
+  },
+  "rooms": {
+    "metaTitle": "Rooms | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Comfortable hotel rooms at Blue Heaven Apart Hotel Alanya — living room, bedroom, kitchen and balcony.",
+    "title": "Our Rooms",
+    "subtitle": "Every room has a living room, bedroom, kitchen and balcony.",
+    "inEveryRoom": "In every room",
+    "chooseView": "Choose your room",
+    "chooseViewSubtitle": "The rooms are the same — only the side changes.",
+    "availabilityNote": "Get in touch to ask about availability.",
+    "extraServices": "Extra services",
+    "extraServicesSubtitle": "Available at reception — prices as listed.",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "capacity": "Capacity",
+    "beds": "Beds",
+    "size": "Size",
+    "view": "View",
+    "livingRoom": "Living room",
+    "bedroom": "Bedroom",
+    "balcony": "Balcony",
+    "kitchen": "Kitchen",
+    "bathroom": "Bathroom",
+    "facilities": "Facilities",
+    "airConditioning": "Air conditioning",
+    "wifi": "Wi-Fi",
+    "tv": "TV",
+    "price": "Price",
+    "from": "From"
+  },
+  "restaurantPage": {
+    "metaTitle": "Restaurant | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Enjoy delicious food and drinks at Blue Heaven Restaurant in Alanya.",
+    "gallery": "Gallery"
+  },
+  "menuPage": {
+    "metaTitle": "Menu | Blue Heaven Restaurant Alanya",
+    "metaDescription": "Browse the menu at Blue Heaven Restaurant in Alanya — breakfast, mains, Turkish cuisine, drinks and more.",
+    "title": "Our Menu",
+    "subtitle": "Delicious food and drinks at Blue Heaven Restaurant.",
+    "categories": "Categories",
+    "featured": "Featured",
+    "askPrice": "Ask us"
+  },
+  "massagePage": {
+    "metaTitle": "Massage & Wellness | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Massage treatments at Blue Heaven Apart Hotel in Alanya — standard, medical, aroma, sport and more. Contact the front desk.",
+    "title": "Slow Down",
+    "subtitle": "Massage and wellness treatments at Blue Heaven — book through reception.",
+    "duration": "Duration",
+    "treatments": "Wellness",
+    "priceList": "Massage menu",
+    "package": "Package",
+    "price": "Price",
+    "frontDeskNote": "For massage information and availability, please contact the front desk."
+  },
+  "galleryPage": {
+    "metaTitle": "Gallery | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Photos of Blue Heaven Apart Hotel — rooms, restaurant, food, massage and Alanya location.",
+    "title": "Gallery",
+    "subtitle": "A look at Blue Heaven Apart Hotel in Alanya.",
+    "all": "All",
+    "hotel": "Hotel",
+    "rooms": "Rooms",
+    "restaurant": "Restaurant",
+    "food": "Food",
+    "massage": "Massage",
+    "location": "Location",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "locationPage": {
+    "metaTitle": "Location | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Find Blue Heaven Apart Hotel in Alanya, Antalya, Türkiye. Address, phone and directions.",
+    "contactDetails": "Contact Details",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email"
+  },
+  "contactPage": {
+    "metaTitle": "Contact | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Contact Blue Heaven Apart Hotel in Alanya by phone or email. Ask about rooms, restaurant and massage.",
+    "title": "Contact Us",
+    "subtitle": "We are happy to help — reach the Blue Heaven team.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "success": "Thank you! Your message is ready to send. We will also show contact options below.",
+    "error": "Please fill in the required fields.",
+    "placeholderNote": "Replace contact placeholders in data/hotel.ts with real details."
+  },
+  "footer": {
+    "rights": "© Blue Heaven Apart Hotel",
+    "tagline": "A relaxed Mediterranean stay in Alanya. Family-run hospitality."
+  },
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "loading": "Loading…"
+  }
+}

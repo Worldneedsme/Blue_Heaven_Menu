@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "rooms": "Odalar",
+    "restaurant": "Restoran",
+    "menu": "Menü",
+    "massage": "Masaj",
+    "gallery": "Galeri",
+    "location": "Konum",
+    "alanya": "Alanya",
+    "contact": "İletişim",
+    "contactUs": "Bize Ulaşın",
+    "explore": "Keşfet",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat"
+  },
+  "cta": {
+    "contactUs": "Bize Ulaşın",
+    "callUs": "Bizi Arayın",
+    "askAvailability": "Müsaitlik Sorun",
+    "viewDetails": "Detayları Gör",
+    "exploreRoom": "Odayı Keşfet",
+    "viewMenu": "Menüyü Gör",
+    "viewGallery": "Galeriyi Gör",
+    "exploreRooms": "Odalarımızı Keşfedin",
+    "exploreBlueHeaven": "Blue Heaven'ı Keşfedin",
+    "discoverAlanya": "Alanya'yı Keşfedin",
+    "exploreAlanya": "Alanya'yı Keşfedin",
+    "discoverMassage": "Masajı Keşfedin",
+    "getInTouch": "İletişime Geçin",
+    "getDirections": "Yol Tarifi Al",
+    "reserveMassage": "Resepsiyon ile İletişime Geçin",
+    "bookMassage": "Resepsiyon ile İletişime Geçin",
+    "sendMessage": "Mesaj Gönder",
+    "emailUs": "E-posta Gönderin"
+  },
+  "home": {
+    "metaTitle": "Blue Heaven Apart Hotel Alanya | Alanya Otel Odaları",
+    "metaDescription": "Alanya, Antalya'da Blue Heaven Apart Hotel — konforlu otel odaları, restoran ve masaj. Aile işletmesi Akdeniz konaklaması."
+  },
+  "rooms": {
+    "metaTitle": "Odalar | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Blue Heaven Apart Hotel Alanya'da konforlu otel odaları — oturma odası, yatak odası, mutfak ve balkon.",
+    "title": "Odalarımız",
+    "subtitle": "Her odada oturma odası, yatak odası, mutfak ve balkon bulunur.",
+    "inEveryRoom": "Her odada",
+    "chooseView": "Odanızı seçin",
+    "chooseViewSubtitle": "Odalar aynıdır — yalnızca taraf değişir.",
+    "availabilityNote": "Müsaitlik için bizimle iletişime geçin.",
+    "extraServices": "Ek hizmetler",
+    "extraServicesSubtitle": "Resepsiyonda mevcuttur — fiyatlar listede belirtilmiştir.",
+    "checkIn": "Giriş",
+    "checkOut": "Çıkış",
+    "capacity": "Kapasite",
+    "beds": "Yataklar",
+    "size": "Alan",
+    "view": "Manzara",
+    "livingRoom": "Oturma odası",
+    "bedroom": "Yatak odası",
+    "balcony": "Balkon",
+    "kitchen": "Mutfak",
+    "bathroom": "Banyo",
+    "facilities": "İmkanlar",
+    "airConditioning": "Klima",
+    "wifi": "Wi-Fi",
+    "tv": "TV",
+    "price": "Fiyat",
+    "from": "Başlayan"
+  },
+  "restaurantPage": {
+    "metaTitle": "Restoran | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Alanya'da Blue Heaven Restoran'da lezzetli yemek ve içeceklerin tadını çıkarın.",
+    "gallery": "Galeri"
+  },
+  "menuPage": {
+    "metaTitle": "Menü | Blue Heaven Restoran Alanya",
+    "metaDescription": "Alanya'da Blue Heaven Restoran menüsüne göz atın — kahvaltı, ana yemekler, Türk mutfağı, içecekler ve daha fazlası.",
+    "title": "Menümüz",
+    "subtitle": "Blue Heaven Restoran'da lezzetli yemek ve içecekler.",
+    "categories": "Kategoriler",
+    "featured": "Öne Çıkanlar",
+    "askPrice": "Bize sorun"
+  },
+  "massagePage": {
+    "metaTitle": "Masaj & Wellness | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Blue Heaven Apart Hotel Alanya masaj hizmetleri — standart, medikal, aroma, spor ve daha fazlası. Resepsiyon ile iletişime geçin.",
+    "title": "Yavaşlayın",
+    "subtitle": "Blue Heaven'da masaj ve wellness — randevu için resepsiyon ile iletişime geçin.",
+    "duration": "Süre",
+    "treatments": "Wellness",
+    "priceList": "Masaj menüsü",
+    "package": "Paket",
+    "price": "Fiyat",
+    "frontDeskNote": "Masaj bilgisi ve müsaitlik için lütfen resepsiyon ile iletişime geçin."
+  },
+  "galleryPage": {
+    "metaTitle": "Galeri | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Blue Heaven Apart Hotel fotoğrafları — odalar, restoran, yemek, masaj ve Alanya konumu.",
+    "title": "Galeri",
+    "subtitle": "Alanya'da Blue Heaven Apart Hotel'e bir bakış.",
+    "all": "Tümü",
+    "hotel": "Otel",
+    "rooms": "Odalar",
+    "restaurant": "Restoran",
+    "food": "Yemek",
+    "massage": "Masaj",
+    "location": "Konum",
+    "close": "Kapat",
+    "previous": "Önceki",
+    "next": "Sonraki"
+  },
+  "locationPage": {
+    "metaTitle": "Konum | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Alanya, Antalya, Türkiye'de Blue Heaven Apart Hotel'i bulun. Adres, telefon ve yol tarifi.",
+    "contactDetails": "İletişim Bilgileri",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta"
+  },
+  "contactPage": {
+    "metaTitle": "İletişim | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Alanya'da Blue Heaven Apart Hotel ile telefon veya e-posta ile iletişime geçin.",
+    "title": "Bize Ulaşın",
+    "subtitle": "Yardımcı olmaktan mutluluk duyarız — Blue Heaven ekibine ulaşın.",
+    "name": "Ad Soyad",
+    "email": "E-posta",
+    "phone": "Telefon",
+    "message": "Mesaj",
+    "success": "Teşekkürler! Mesajınız gönderilmeye hazır. Aşağıda iletişim seçeneklerini de görebilirsiniz.",
+    "error": "Lütfen zorunlu alanları doldurun.",
+    "placeholderNote": "İletişim yer tutucularını data/hotel.ts dosyasında gerçek bilgilerle değiştirin."
+  },
+  "footer": {
+    "rights": "© Blue Heaven Apart Hotel",
+    "tagline": "Alanya'daki konforlu Akdeniz eviniz. Aile işletmesi misafirperverliği."
+  },
+  "common": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "loading": "Yükleniyor…"
+  }
+}

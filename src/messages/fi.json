@@ -1,0 +1,142 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "rooms": "Huoneet",
+    "restaurant": "Ravintola",
+    "menu": "Ruokalista",
+    "massage": "Hieronta",
+    "gallery": "Galleria",
+    "location": "Sijainti",
+    "alanya": "Alanya",
+    "contact": "Yhteystiedot",
+    "contactUs": "Ota yhteyttä",
+    "explore": "Tutustu",
+    "openMenu": "Avaa valikko",
+    "closeMenu": "Sulje valikko"
+  },
+  "cta": {
+    "contactUs": "Ota yhteyttä",
+    "callUs": "Soita meille",
+    "askAvailability": "Kysy saatavuudesta",
+    "viewDetails": "Katso tiedot",
+    "exploreRoom": "Tutustu huoneeseen",
+    "viewMenu": "Katso ruokalista",
+    "viewGallery": "Katso galleria",
+    "exploreRooms": "Tutustu huoneisiin",
+    "exploreBlueHeaven": "Tutustu Blue Heaveniin",
+    "discoverAlanya": "Tutustu Alanyaan",
+    "exploreAlanya": "Tutustu Alanyaan",
+    "discoverMassage": "Tutustu hierontaan",
+    "getInTouch": "Ota yhteyttä",
+    "getDirections": "Reittiohjeet",
+    "reserveMassage": "Ota yhteyttä vastaanottoon",
+    "bookMassage": "Ota yhteyttä vastaanottoon",
+    "sendMessage": "Lähetä viesti",
+    "emailUs": "Lähetä sähköpostia"
+  },
+  "home": {
+    "metaTitle": "Blue Heaven Apart Hotel Alanya | Hotellihuoneet Alanyassa",
+    "metaDescription": "Blue Heaven Apart Hotel Alanyassa, Antalyassa — mukavat hotellihuoneet, ravintola ja hieronta. Perheyrityksen välimerellinen majoitus."
+  },
+  "rooms": {
+    "metaTitle": "Huoneet | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Mukavat hotellihuoneet Blue Heaven Apart Hotelissa Alanyassa — olohuone, makuuhuone, keittiö ja parveke.",
+    "title": "Huoneemme",
+    "subtitle": "Jokaisessa huoneessa on olohuone, makuuhuone, keittiö ja parveke.",
+    "inEveryRoom": "Jokaisessa huoneessa",
+    "chooseView": "Valitse huoneesi",
+    "chooseViewSubtitle": "Huoneet ovat samanlaisia — vain puoli vaihtuu.",
+    "availabilityNote": "Ota yhteyttä ja kysy saatavuudesta.",
+    "extraServices": "Lisäpalvelut",
+    "extraServicesSubtitle": "Saatavilla vastaanotossa — hinnat listan mukaan.",
+    "checkIn": "Sisäänkirjautuminen",
+    "checkOut": "Uloskirjautuminen",
+    "capacity": "Kapasiteetti",
+    "beds": "Sängyt",
+    "size": "Koko",
+    "view": "Näkymä",
+    "livingRoom": "Olohuone",
+    "bedroom": "Makuuhuone",
+    "balcony": "Parveke",
+    "kitchen": "Keittiö",
+    "bathroom": "Kylpyhuone",
+    "facilities": "Mukavuudet",
+    "airConditioning": "Ilmastointi",
+    "wifi": "Wi-Fi",
+    "tv": "TV",
+    "price": "Hinta",
+    "from": "Alkaen"
+  },
+  "restaurantPage": {
+    "metaTitle": "Ravintola | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Nauti herkullisesta ruoasta ja juomista Blue Heaven -ravintolassa Alanyassa.",
+    "gallery": "Galleria"
+  },
+  "menuPage": {
+    "metaTitle": "Ruokalista | Blue Heaven Restaurant Alanya",
+    "metaDescription": "Tutustu Blue Heaven -ravintolan ruokalistaan Alanyassa — aamiainen, pääruoat, turkkilainen keittiö, juomat ja paljon muuta.",
+    "title": "Ruokalistamme",
+    "subtitle": "Herkullista ruokaa ja juomia Blue Heaven -ravintolassa.",
+    "categories": "Kategoriat",
+    "featured": "Suositellut",
+    "askPrice": "Kysy meiltä"
+  },
+  "massagePage": {
+    "metaTitle": "Hieronta & hyvinvointi | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Hierontahoidot Blue Heaven Apart Hotelissa Alanyassa — standard, medical, aroma, sport ja muuta. Ota yhteyttä vastaanottoon.",
+    "title": "Hidasta tahtia",
+    "subtitle": "Hieronta- ja hyvinvointihoidot Blue Heavenissa — varaa vastaanoton kautta.",
+    "duration": "Kesto",
+    "treatments": "Hyvinvointi",
+    "priceList": "Hierontalista",
+    "package": "Paketti",
+    "price": "Hinta",
+    "frontDeskNote": "Hierontatietoja ja saatavuutta varten ota yhteyttä vastaanottoon."
+  },
+  "galleryPage": {
+    "metaTitle": "Galleria | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Kuvia Blue Heaven Apart Hotelista — huoneet, ravintola, ruoka, hieronta ja Alanyan sijainti.",
+    "title": "Galleria",
+    "subtitle": "Katsaus Blue Heaven Apart Hoteliin Alanyassa.",
+    "all": "Kaikki",
+    "hotel": "Hotelli",
+    "rooms": "Huoneet",
+    "restaurant": "Ravintola",
+    "food": "Ruoka",
+    "massage": "Hieronta",
+    "location": "Sijainti",
+    "close": "Sulje",
+    "previous": "Edellinen",
+    "next": "Seuraava"
+  },
+  "locationPage": {
+    "metaTitle": "Sijainti | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Löydä Blue Heaven Apart Hotel Alanyasta, Antalyasta, Turkista. Osoite, puhelin ja reittiohjeet.",
+    "contactDetails": "Yhteystiedot",
+    "address": "Osoite",
+    "phone": "Puhelin",
+    "email": "Sähköposti"
+  },
+  "contactPage": {
+    "metaTitle": "Yhteystiedot | Blue Heaven Apart Hotel Alanya",
+    "metaDescription": "Ota yhteyttä Blue Heaven Apart Hoteliin Alanyassa puhelimitse tai sähköpostilla.",
+    "title": "Ota yhteyttä",
+    "subtitle": "Autamme mielellämme — tavoitat Blue Heaven -tiimin.",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "phone": "Puhelin",
+    "message": "Viesti",
+    "success": "Kiitos! Viestisi on valmis lähetettäväksi. Alla näet myös yhteystiedot.",
+    "error": "Täytä pakolliset kentät.",
+    "placeholderNote": "Korvaa yhteystietojen paikkamerkit tiedostossa data/hotel.ts."
+  },
+  "footer": {
+    "rights": "© Blue Heaven Apart Hotel",
+    "tagline": "Mukava välimerellinen kotisi Alanyassa. Perheyrityksen vieraanvaraisuutta."
+  },
+  "common": {
+    "yes": "Kyllä",
+    "no": "Ei",
+    "loading": "Ladataan…"
+  }
+}
