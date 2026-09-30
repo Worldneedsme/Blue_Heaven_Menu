@@ -15,7 +15,7 @@ export async function AlanyaSection({ locale }: { locale: Locale }) {
         <div className="relative min-h-[55vh] lg:min-h-[80vh]">
           <PlaceholderImage
             src="/images/location/alanya-coast.jpg"
-            alt="Alanya coastline"
+            alt="View of Alanya harbour and Red Tower from the castle"
             className="absolute inset-0 h-full min-h-[55vh] w-full lg:min-h-[80vh]"
             aspect="aspect-auto"
             sizes="(max-width: 1024px) 100vw, 50vw"

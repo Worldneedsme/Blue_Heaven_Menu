@@ -17,7 +17,6 @@ type Labels = {
   restaurant: string;
   food: string;
   massage: string;
-  location: string;
   close: string;
   previous: string;
   next: string;

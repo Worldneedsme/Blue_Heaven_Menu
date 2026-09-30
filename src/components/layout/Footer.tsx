@@ -7,6 +7,7 @@ import {
   hasSocial,
   hotel,
 } from "@/data/hotel";
+import { SocialLinks } from "@/components/ui/SocialLinks";
 
 const navLinks = [
   { href: "/rooms", key: "rooms" as const },
@@ -77,27 +78,16 @@ export async function Footer() {
             </li>
           </ul>
           {(hasSocial(hotel.instagram) || hasSocial(hotel.facebook)) && (
-            <div className="mt-6 flex gap-5">
-              {hasSocial(hotel.instagram) ? (
-                <a
-                  href={hotel.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-cream/70 transition hover:text-white"
-                >
-                  Instagram
-                </a>
-              ) : null}
-              {hasSocial(hotel.facebook) ? (
-                <a
-                  href={hotel.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-cream/70 transition hover:text-white"
-                >
-                  Facebook
-                </a>
-              ) : null}
+            <div className="mt-6">
+              <SocialLinks
+                variant="footer"
+                instagram={
+                  hasSocial(hotel.instagram) ? hotel.instagram : undefined
+                }
+                facebook={
+                  hasSocial(hotel.facebook) ? hotel.facebook : undefined
+                }
+              />
             </div>
           )}
         </div>

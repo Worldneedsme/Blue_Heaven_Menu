@@ -33,8 +33,8 @@ export function HotelExperience({ locale }: { locale: Locale }) {
             </p>
             <div className="mt-10 max-w-xs overflow-hidden">
               <PlaceholderImage
-                src="/images/hotel/reception.jpg"
-                alt={`${hotel.name} reception`}
+                src="/images/hotel/hotel-pool.jpg"
+                alt={`${hotel.name} pool`}
                 aspect="aspect-[4/5]"
                 sizes="(max-width: 1024px) 60vw, 22vw"
               />

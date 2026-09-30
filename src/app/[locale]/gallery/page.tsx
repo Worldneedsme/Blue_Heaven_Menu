@@ -43,7 +43,6 @@ export default async function GalleryPage({
             restaurant: t("restaurant"),
             food: t("food"),
             massage: t("massage"),
-            location: t("location"),
             close: t("close"),
             previous: t("previous"),
             next: t("next"),

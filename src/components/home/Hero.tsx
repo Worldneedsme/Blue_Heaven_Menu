@@ -3,6 +3,7 @@ import { getTranslations } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { hasSocial, hotel } from "@/data/hotel";
 import { ButtonLink } from "@/components/ui/Button";
+import { SocialLinks } from "@/components/ui/SocialLinks";
 import { Link } from "@/i18n/navigation";
 
 export async function Hero({ locale: _locale }: { locale: Locale }) {
@@ -19,7 +20,7 @@ export async function Hero({ locale: _locale }: { locale: Locale }) {
           fill
           priority
           sizes="100vw"
-          className="object-cover object-center scale-105"
+          className="object-cover object-[center_45%] scale-105"
         />
         <div className="absolute inset-0 hero-overlay" />
       </div>
@@ -41,27 +42,12 @@ export async function Hero({ locale: _locale }: { locale: Locale }) {
             </Link>
           </div>
           {(showInstagram || showFacebook) && (
-            <div className="mt-8 flex flex-wrap items-center gap-6 text-xs font-semibold uppercase tracking-[0.14em] text-white/75">
-              {showInstagram ? (
-                <a
-                  href={hotel.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition hover:text-white"
-                >
-                  Instagram
-                </a>
-              ) : null}
-              {showFacebook ? (
-                <a
-                  href={hotel.facebook}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="transition hover:text-white"
-                >
-                  Facebook
-                </a>
-              ) : null}
+            <div className="mt-8">
+              <SocialLinks
+                variant="hero"
+                instagram={showInstagram ? hotel.instagram : undefined}
+                facebook={showFacebook ? hotel.facebook : undefined}
+              />
             </div>
           )}
         </div>

@@ -7,7 +7,7 @@ export const hotel = {
   name: "Blue Heaven Apart Hotel",
   shortName: "Blue Heaven",
   logo: "/images/brand/logo.png",
-  heroImage: "/images/hotel/hotel-exterior.jpg",
+  heroImage: "/images/hotel/hotel-hero.jpg",
   city: "Alanya",
   region: "Antalya",
   country: "Türkiye",

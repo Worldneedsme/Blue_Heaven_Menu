@@ -3,8 +3,7 @@ export type GalleryCategory =
   | "rooms"
   | "restaurant"
   | "food"
-  | "massage"
-  | "location";
+  | "massage";
 
 export type GalleryImage = {
   id: string;
@@ -34,6 +33,16 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: "hotel-2",
+    src: "/images/hotel/hotel-pool.jpg",
+    category: "hotel",
+    alt: {
+      en: "Swimming pool and sun loungers",
+      fi: "Uima-allas ja aurinkotuolit",
+      tr: "Yüzme havuzu ve şezlonglar",
+    },
+  },
+  {
+    id: "hotel-3",
     src: "/images/hotel/lobby.jpg",
     category: "hotel",
     alt: {
@@ -43,7 +52,7 @@ export const galleryImages: GalleryImage[] = [
     },
   },
   {
-    id: "hotel-3",
+    id: "hotel-4",
     src: "/images/hotel/reception.jpg",
     category: "hotel",
     alt: {
@@ -102,16 +111,6 @@ export const galleryImages: GalleryImage[] = [
       tr: "Blue Heaven Apart Hotel masaj odası",
     },
   },
-  {
-    id: "loc-1",
-    src: "/images/location/alanya-coast.jpg",
-    category: "location",
-    alt: {
-      en: "Alanya coastline",
-      fi: "Alanyan rantaviiva",
-      tr: "Alanya sahil şeridi",
-    },
-  },
 ];
 
 export const galleryCategories: GalleryCategory[] = [
@@ -120,5 +119,4 @@ export const galleryCategories: GalleryCategory[] = [
   "restaurant",
   "food",
   "massage",
-  "location",
 ];
