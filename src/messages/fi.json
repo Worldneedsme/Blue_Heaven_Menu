@@ -79,7 +79,8 @@
     "subtitle": "Herkullista ruokaa ja juomia Blue Heaven -ravintolassa.",
     "categories": "Kategoriat",
     "featured": "Suositellut",
-    "askPrice": "Kysy meiltä"
+    "askPrice": "Kysy meiltä",
+    "itemCount": "{count} annosta"
   },
   "massagePage": {
     "metaTitle": "Hieronta & hyvinvointi | Blue Heaven Apart Hotel Alanya",

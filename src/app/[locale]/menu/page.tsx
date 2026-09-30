@@ -29,12 +29,12 @@ export default async function MenuPage({
   const categories = getVisibleMenuCategories();
 
   return (
-    <div className="bg-cream pb-20 pt-28">
+    <div className="bg-cream pb-28 pt-24 sm:pb-24 sm:pt-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeader
           title={t("title")}
           subtitle={t("subtitle")}
-          className="mb-12"
+          className="mb-8 sm:mb-12"
         />
       </div>
       <MenuBrowser
@@ -44,9 +44,10 @@ export default async function MenuPage({
           categories: t("categories"),
           featured: t("featured"),
           askPrice: t("askPrice"),
+          itemCount: t("itemCount"),
         }}
       />
-      <div className="mx-auto mt-16 max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto mt-12 max-w-7xl px-4 sm:mt-16 sm:px-6 lg:px-8">
         <ContactCTA
           labels={{
             callUs: tc("callUs"),

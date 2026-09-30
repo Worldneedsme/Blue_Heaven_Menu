@@ -79,7 +79,8 @@
     "subtitle": "Delicious food and drinks at Blue Heaven Restaurant.",
     "categories": "Categories",
     "featured": "Featured",
-    "askPrice": "Ask us"
+    "askPrice": "Ask us",
+    "itemCount": "{count} items"
   },
   "massagePage": {
     "metaTitle": "Massage & Wellness | Blue Heaven Apart Hotel Alanya",
