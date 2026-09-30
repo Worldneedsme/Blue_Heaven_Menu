@@ -1,40 +1,28 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import type { Locale } from "@/i18n/routing";
+import { getBarLocale } from "@/lib/bar-locale";
 import { getVisibleMenuCategories } from "@/data/menu";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { MenuBrowser } from "@/components/menu/MenuBrowser";
-import { ContactCTA } from "@/components/ui/ContactCTA";
 
-export async function generateMetadata({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}): Promise<Metadata> {
-  const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "menuPage" });
-  return { title: t("metaTitle"), description: t("metaDescription") };
-}
+export const metadata: Metadata = {
+  title: "Menu | Blue Heaven Bar",
+  robots: { index: false, follow: false },
+};
 
-export default async function MenuPage({
-  params,
-}: {
-  params: Promise<{ locale: string }>;
-}) {
-  const { locale: loc } = await params;
-  const locale = loc as Locale;
+export default async function BarMenuPage() {
+  const locale = await getBarLocale();
   setRequestLocale(locale);
   const t = await getTranslations("menuPage");
-  const tc = await getTranslations("cta");
   const categories = getVisibleMenuCategories();
 
   return (
-    <div className="bg-white pb-28 pt-24 lg:bg-cream lg:pb-24 lg:pt-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div className="bg-white pb-16 pt-24">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6">
         <SectionHeader
           title={t("title")}
           subtitle={t("subtitle")}
-          className="mb-6 lg:mb-12"
+          className="mb-6"
         />
       </div>
       <MenuBrowser
@@ -55,14 +43,6 @@ export default async function MenuPage({
           barHours: t("barHours"),
         }}
       />
-      <div className="mx-auto mt-10 max-w-7xl px-4 sm:px-6 lg:mt-16 lg:px-8">
-        <ContactCTA
-          labels={{
-            callUs: tc("callUs"),
-            emailUs: tc("emailUs"),
-          }}
-        />
-      </div>
     </div>
   );
 }

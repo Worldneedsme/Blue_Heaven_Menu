@@ -12,7 +12,8 @@
     "contactUs": "Ota yhteyttä",
     "explore": "Tutustu",
     "openMenu": "Avaa valikko",
-    "closeMenu": "Sulje valikko"
+    "closeMenu": "Sulje valikko",
+    "language": "Kieli"
   },
   "cta": {
     "contactUs": "Ota yhteyttä",
@@ -80,8 +81,18 @@
     "categories": "Kategoriat",
     "featured": "Suositellut",
     "askPrice": "Kysy meiltä",
-    "itemCount": "{count} annosta"
+    "itemCount": "{count} annosta",
+    "foodSection": "Ruoka",
+    "drinksSection": "Juomat",
+    "dessertsSection": "Jälkiruoat",
+    "search": "Hae ruokalistalta",
+    "noResults": "Ei tuloksia",
+    "kitchenHoursLabel": "Keittiö",
+    "kitchenHours": "10:00 – 21:00",
+    "barHoursLabel": "Heaven Bar",
+    "barHours": "08:00 – 00:00"
   },
+
   "massagePage": {
     "metaTitle": "Hieronta & hyvinvointi | Blue Heaven Apart Hotel Alanya",
     "metaDescription": "Hierontahoidot Blue Heaven Apart Hotelissa Alanyassa — standard, medical, aroma, sport ja muuta. Ota yhteyttä vastaanottoon.",

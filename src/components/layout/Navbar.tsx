@@ -134,28 +134,26 @@ export function Navbar() {
       <div
         id="mobile-nav"
         className={cx(
-          "fixed inset-0 z-50 bg-cream transition-opacity duration-300 lg:hidden",
+          "fixed inset-0 z-50 h-[100dvh] w-screen bg-cream transition-opacity duration-300 lg:hidden",
           open ? "pointer-events-auto opacity-100" : "pointer-events-none opacity-0",
         )}
       >
-        <nav className="flex h-full flex-col justify-center gap-2 px-8" aria-label="Mobile">
-          {links.map((link) => {
-            return (
+        <nav
+          className="flex h-full flex-col justify-start overflow-y-auto px-8 pb-10 pt-28"
+          aria-label="Mobile"
+        >
+          <LanguageSwitcher names />
+          <div className="mt-8 flex flex-col">
+            {links.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="font-display text-3xl text-aegean transition hover:text-terracotta sm:text-4xl"
+                className="border-b border-charcoal/10 py-3.5 font-display text-[1.65rem] leading-none text-aegean transition hover:text-terracotta"
               >
                 {t(link.key)}
               </Link>
-            );
-          })}
-          <div className="mt-10 flex items-center gap-6">
-            <LanguageSwitcher />
-            <ButtonLink href="/rooms" variant="primary" size="md" onClick={() => setOpen(false)}>
-              {t("explore")}
-            </ButtonLink>
+            ))}
           </div>
         </nav>
       </div>

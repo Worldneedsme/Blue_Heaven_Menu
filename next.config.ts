@@ -8,6 +8,9 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: [
     "*.trycloudflare.com",
     "*.loca.lt",
+    "192.168.1.112",
+    "localhost",
+    "127.0.0.1",
   ],
   images: {
     formats: ["image/avif", "image/webp"],

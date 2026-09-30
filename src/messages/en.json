@@ -12,7 +12,8 @@
     "contactUs": "Contact Us",
     "explore": "Explore",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "language": "Language"
   },
   "cta": {
     "contactUs": "Contact Us",
@@ -80,8 +81,18 @@
     "categories": "Categories",
     "featured": "Featured",
     "askPrice": "Ask us",
-    "itemCount": "{count} items"
+    "itemCount": "{count} items",
+    "foodSection": "Food",
+    "drinksSection": "Drinks",
+    "dessertsSection": "Desserts",
+    "search": "Search the menu",
+    "noResults": "Nothing found",
+    "kitchenHoursLabel": "Kitchen",
+    "kitchenHours": "10:00 – 21:00",
+    "barHoursLabel": "Heaven Bar",
+    "barHours": "08:00 – 00:00"
   },
+
   "massagePage": {
     "metaTitle": "Massage & Wellness | Blue Heaven Apart Hotel Alanya",
     "metaDescription": "Massage treatments at Blue Heaven Apart Hotel in Alanya — standard, medical, aroma, sport and more. Contact the front desk.",

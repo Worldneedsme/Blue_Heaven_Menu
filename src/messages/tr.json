@@ -12,7 +12,8 @@
     "contactUs": "Bize Ulaşın",
     "explore": "Keşfet",
     "openMenu": "Menüyü aç",
-    "closeMenu": "Menüyü kapat"
+    "closeMenu": "Menüyü kapat",
+    "language": "Dil"
   },
   "cta": {
     "contactUs": "Bize Ulaşın",
@@ -80,8 +81,18 @@
     "categories": "Kategoriler",
     "featured": "Öne Çıkanlar",
     "askPrice": "Bize sorun",
-    "itemCount": "{count} ürün"
+    "itemCount": "{count} ürün",
+    "foodSection": "Yemekler",
+    "drinksSection": "İçecekler",
+    "dessertsSection": "Tatlılar",
+    "search": "Menüde ara",
+    "noResults": "Sonuç yok",
+    "kitchenHoursLabel": "Mutfak",
+    "kitchenHours": "10:00 – 21:00",
+    "barHoursLabel": "Heaven Bar",
+    "barHours": "08:00 – 00:00"
   },
+
   "massagePage": {
     "metaTitle": "Masaj & Wellness | Blue Heaven Apart Hotel Alanya",
     "metaDescription": "Blue Heaven Apart Hotel Alanya masaj hizmetleri — standart, medikal, aroma, spor ve daha fazlası. Resepsiyon ile iletişime geçin.",

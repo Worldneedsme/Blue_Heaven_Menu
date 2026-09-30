@@ -56,7 +56,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "omelettes",
     name: L("Omelettes", "Munakkaat", "Omletler"),
-    order: 1,
+    order: 13,
     items: [
       item("menemen", "Menemen", "Turkkilainen Munakas", "Menemen", "400", 1, {
         featured: true,
@@ -91,7 +91,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "salads",
     name: L("Salads", "Salaatit", "Salatalar"),
-    order: 2,
+    order: 3,
     items: [
       item("caesar-salad", "Caesar Salad", "Caesar-Salaatti", "Sezar Salata", "470", 1, {
         featured: true,
@@ -117,7 +117,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "starters",
     name: L("Starters", "Alkuruuat", "Başlangıçlar"),
-    order: 3,
+    order: 1,
     items: [
       item("garlic-bread", "Garlic Bread", "Valkosipulileipä", "Sarımsaklı Ekmek", "280", 1),
       item(
@@ -133,7 +133,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "soups",
     name: L("Soups", "Keitot", "Çorbalar"),
-    order: 4,
+    order: 2,
     items: [
       item("lentil-soup", "Lentil Soup", "Linssikeitto", "Mercimek Çorbası", "250", 1),
       item("tomato-soup", "Tomato Soup", "Tomaattikeitto", "Domates Çorbası", "250", 2),
@@ -144,7 +144,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "pizza",
     name: L("Pizza", "Pizza", "Pizza"),
-    order: 5,
+    order: 10,
     items: [
       item("pizza-margherita", "Pizza Margherita", "Pizza Margherita", "Margarita Pizza", "460", 1, {
         featured: true,
@@ -158,7 +158,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "pastas",
     name: L("Pastas", "Pastat", "Makarnalar"),
-    order: 6,
+    order: 9,
     items: [
       item(
         "spaghetti-napolitan",
@@ -199,7 +199,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "chicken",
     name: L("Chicken Dishes", "Kanaruoat", "Tavuk Yemekleri"),
-    order: 8,
+    order: 6,
     items: [
       item("grilled-chicken", "Grilled Chicken", "Grillattua Kana", "Izgara Tavuk", "530", 1, {
         featured: true,
@@ -236,7 +236,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "seafood",
     name: L("Seafood", "Äyriäiset & kala", "Deniz Ürünleri"),
-    order: 9,
+    order: 8,
     items: [
       item("fried-sea-bass", "Fried Sea Bass", "Paistettua Meribassin", "Kızarmış Levrek", "730", 1),
       item(
@@ -255,7 +255,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "turkish",
     name: L("Turkish Cuisine", "Turkkilainen keittiö", "Türk Mutfağı"),
-    order: 10,
+    order: 5,
     items: [
       item("lamb-shish", "Lamb Shish", "Lammasvartaat", "Kuzu Şiş", "830", 1, { featured: true }),
       item(
@@ -330,7 +330,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "kids",
     name: L("Kids Menu", "Lasten menu", "Çocuk Menüsü"),
-    order: 13,
+    order: 14,
     items: [
       item("kids-nugget", "Chicken Nugget", "Kana Nugetti", "Tavuk Nugget", "320", 1),
       item(
@@ -370,7 +370,7 @@ export const menuCategories: MenuCategory[] = [
   {
     id: "fast-food",
     name: L("Fast Food", "Pikaruoka", "Fast Food"),
-    order: 14,
+    order: 4,
     items: [
       item("hamburger", "Hamburger", "Hampurilainen", "Hamburger", "420", 1),
       item(
@@ -452,16 +452,26 @@ export const menuCategories: MenuCategory[] = [
         "450",
         17,
       ),
-      item("fruit-salad", "Fruit Salad", "Hedelmäsalaatti", "Meyve Salatası", "270", 18),
-      item("fruit-plate", "Fruit Plate", "Hedelmälautanen", "Meyve Tabağı", "270", 19),
       item(
         "finnish-street-food",
         "Finnish Street Food",
         "Makkaraperunat",
         "Makkaraperunat",
         "350",
-        20,
+        18,
       ),
+    ],
+  },
+  {
+    id: "desserts",
+    name: L("Desserts", "Jälkiruoat", "Tatlılar"),
+    order: 14.5,
+    items: [
+      item("fruit-salad", "Fruit Salad", "Hedelmäsalaatti", "Meyve Salatası", "270", 1),
+      item("fruit-plate", "Fruit Plate", "Hedelmälautanen", "Meyve Tabağı", "270", 2),
+      item("cake-ice-cream", "Cake & Ice Cream", "Kakku & jäätelö", "Kek & Dondurma", "240", 3),
+      item("milkshake", "Milkshake", "Pirtelö", "Milkshake", "240", 4),
+      item("banana-split", "Banana Split", "Banaanisplit", "Banana Split", "260", 5),
     ],
   },
   {
@@ -693,6 +703,25 @@ export function formatMenuPrice(price: string, currency: string) {
     return "PRICE";
   }
   if (currency === "EUR") return `€${price}`;
-  if (currency === "TRY") return `${price}₺`;
+  if (currency === "TRY") return `₺${price}`;
   return `${price} ${currency}`;
+}
+
+const DRINK_CATEGORY_IDS = new Set([
+  "hot-drinks",
+  "soft-drinks",
+  "beers",
+  "alcohol-free-cocktails",
+  "local-spirits",
+  "import-spirits",
+  "cooler",
+  "cocktails",
+]);
+
+export function isDrinkCategory(categoryId: string) {
+  return DRINK_CATEGORY_IDS.has(categoryId);
+}
+
+export function isDessertCategory(categoryId: string) {
+  return categoryId === "desserts";
 }

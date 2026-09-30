@@ -67,7 +67,7 @@ export const hotel = {
     "Rannat, linna, vanhankaupungin kadut ja välimerelliset auringonlaskut — Alanya ympäröi Blue Heavenin kaikella, mikä tekee rannikkolomasta ikimuistoisen.",
     "Plajlar, kale, tarihi sokaklar ve Akdeniz gün batımları — Alanya, Blue Heaven'ı unutulmaz bir sahil tatili için gerekenlerle çevreler.",
   ),
-  locationHeading: L("Your Alanya Base", "Alanya-tukikohtasi", "Alanya Üssünüz"),
+  locationHeading: L("Your Home in Alanya", "Kotisi Alanyassa", "Alanyadaki Eviniz"),
   contactHeading: L("Come Stay With Us", "Tule majoittumaan luoksemme", "Bizimle Kalın"),
 
   phone: "+90 242 513 89 64",
