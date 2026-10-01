@@ -532,8 +532,8 @@ export const menuCategories: MenuCategory[] = [
       ),
       item(
         "gluten-free-beer",
-        "Efes Glutensiz Bira",
-        "Efes Glutensiz Bira",
+        "Efes Gluten-Free Beer",
+        "Efes Gluteeniton olut",
         "Efes Glutensiz Bira",
         "250",
         4,
